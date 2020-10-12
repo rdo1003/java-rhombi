@@ -132,7 +132,7 @@ void draw() {
     //Once we draw backslash, draw forwardslash etc.
     if(backslash) {
       backslash = false;
-    } else if(!backslash) {                    //flips rhombi repeadetly
+    } else if(!backslash) {                    //flips rhombi repeatedly
       backslash = true;
     }
   }
